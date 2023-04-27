@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/directory
+    username: postgres
+    password: postgres
+springdoc:
+  swagger-ui:
+    path: /directory/swagger-ui.html
+  api-docs:
+    path: /directory/api-docs
+logging:
+  level:
+    root: info
+    ru.senya.directory: TRACE
